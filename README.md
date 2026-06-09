@@ -2,6 +2,14 @@
 
 A lightweight, local-first Chrome Extension built on Manifest V3 that allows you to scan your followers and following lists, identify exactly who has unfollowed you, and detect who does not follow you back.
 
+## 📸 Screenshots
+
+### Extension Popup
+![Extension Popup](assets/Screenshot 2026-06-09 212912.png)
+
+### Follower Audit Dashboard
+![Follower Audit Dashboard](assets/Screenshot 2026-06-09 213848.png)
+
 ---
 
 ## ✨ Features
@@ -30,7 +38,10 @@ A lightweight, local-first Chrome Extension built on Manifest V3 that allows you
 
 Follow these steps to run the extension locally:
 
-1. **Clone or Download** this repository to your local machine.
+1. **Clone or Download** this repository to your local machine:
+   ```bash
+   git clone https://github.com/kanikakapoorcode/InstaTracker-Instagram-Unfollow-tracker-extension.git
+   ```
 2. Open **Google Chrome** and navigate to:
    ```
    chrome://extensions/
