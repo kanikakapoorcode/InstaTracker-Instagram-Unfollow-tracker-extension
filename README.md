@@ -5,10 +5,10 @@ A lightweight, local-first Chrome Extension built on Manifest V3 that allows you
 ## 📸 Screenshots
 
 ### Extension Popup
-![Extension Popup](assets/Screenshot 2026-06-09 212912.png)
+![Extension Popup](assets/Screenshot%202026-06-09%20212912.png)
 
 ### Follower Audit Dashboard
-![Follower Audit Dashboard](assets/Screenshot 2026-06-09 213848.png)
+![Follower Audit Dashboard](assets/Screenshot%202026-06-09%20212931.png)
 
 ---
 
