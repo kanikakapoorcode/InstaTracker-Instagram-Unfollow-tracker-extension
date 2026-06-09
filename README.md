@@ -4,7 +4,7 @@ A lightweight, local-first Chrome Extension built on Manifest V3 that allows you
 
 ---
 
-## ✨ Features
+## Features
 
 - **Unfollowers Tracker**: Compares your current followers list with your previous local scan snapshot to identify exactly **who has unfollowed you**.
 - **Not Following Back list**: Displays all users you follow who do not follow you back.
@@ -15,7 +15,7 @@ A lightweight, local-first Chrome Extension built on Manifest V3 that allows you
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Browser Spec**: Manifest V3 (Chrome Extension standard)
 - **Front-end**: Vanilla HTML, CSS, JavaScript (No heavy frameworks or libraries)
@@ -26,7 +26,7 @@ A lightweight, local-first Chrome Extension built on Manifest V3 that allows you
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Follow these steps to run the extension locally:
 
@@ -42,7 +42,7 @@ Follow these steps to run the extension locally:
 
 ---
 
-## 📝 How to Use
+## How to Use
 
 1. Ensure you are logged into your account on [Instagram.com](https://instagram.com) in your Chrome browser.
 2. Click the **InstaTrack** icon in your toolbar and click **"Open Dashboard"**.
