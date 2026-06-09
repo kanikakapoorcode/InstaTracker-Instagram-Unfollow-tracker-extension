@@ -1,4 +1,4 @@
-# InstaTrack - Instagram Follower & Unfollower Insights
+# Ins-अn-follow
 
 A lightweight, local-first Chrome Extension built on Manifest V3 that allows you to scan your followers and following lists, identify exactly who has unfollowed you, and detect who does not follow you back.
 
