@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "InstaTrack - Follower & Unfollower Insights",
+  "version": "1.0.0",
+  "description": "Locally detect who unfollowed you, who does not follow back, fans, and mutual connections on Instagram.",
+  "permissions": [
+    "cookies",
+    "storage",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://*.instagram.com/*",
+    "*://*.cdninstagram.com/*",
+    "*://*.fbcdn.net/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>InstaTrack - Follower Audit</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>InstaTrack</h1>
+      <p id="user-info">Checking Instagram login status...</p>
+    </header>
+
+    <div class="control-panel">
+      <div class="scan-actions">
+        <button id="btn-start-scan" class="btn btn-primary">Start Scan</button>
+        <button id="btn-cancel-scan" class="btn btn-secondary" style="display: none;">Stop Scan</button>
+        <span id="scan-status" class="status-text">Ready</span>
+      </div>
+      <div class="delay-setting">
+        <label for="setting-delay">Scan Delay: </label>
+        <input type="number" id="setting-delay" min="1.0" max="10.0" step="0.5" value="1.0" style="width: 55px;"> seconds
+      </div>
+    </div>
+
+    <div class="progress-container" id="progress-container" style="display: none;">
+      <div class="progress-bar"><div id="progress-bar-fill"></div></div>
+      <p id="progress-label">Page 1...</p>
+    </div>
+
+    <main class="results-grid">
+      <!-- Section: Unfollowers -->
+      <section class="result-section">
+        <h2>Who Unfollowed You (<span id="count-unfollowers">0</span>)</h2>
+        <p class="description">Accounts that followed you in the previous scan but don't anymore.</p>
+        <div class="list-container" id="list-unfollowers">
+          <p class="empty-text">No scan data yet. Click "Start Scan" to check.</p>
+        </div>
+      </section>
+
+      <!-- Section: Not Following Back -->
+      <section class="result-section">
+        <h2>Not Following Back (<span id="count-not-following-back">0</span>)</h2>
+        <p class="description">Accounts you follow that do not follow you back.</p>
+        <div class="list-container" id="list-not-following-back">
+          <p class="empty-text">No scan data yet. Click "Start Scan" to check.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <button id="btn-reset-data" class="btn-danger-text">Reset Saved Data</button>
+      <p class="footnote">All data is processed and saved locally in your Chrome storage.</p>
+    </footer>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
